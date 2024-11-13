@@ -45,7 +45,7 @@ The following dependencies are necessary for different functionalities in the pr
 After installing NLTK, remember to download the necessary stopwords dataset by running the following in a Python shell:
 
 import nltk
-nltk.download('stopwords')
+- nltk.download('stopwords')
   
 
 ### Install the Dependencies
