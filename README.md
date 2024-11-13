@@ -42,12 +42,6 @@ The following dependencies are necessary for different functionalities in the pr
 
 - **pydub**: A Python library for audio data manipulation tasks, used for various audio processing needs such as format conversion or splitting.
 
-After installing NLTK, remember to download the necessary stopwords dataset by running the following in a Python shell:
-
-import nltk
-- nltk.download('stopwords')
-  
-
 ### Install the Dependencies
 
 You can install all the necessary dependencies in one go by running the following command:
@@ -55,3 +49,11 @@ You can install all the necessary dependencies in one go by running the followin
 ```bash
 # Install dependencies
 pip install fastapi "uvicorn[standard]" torch transformers soundfile numpy ffmpeg-python python-dotenv opencage nltk scikit-learn sentence-transformers pydub
+```
+After installing NLTK, remember to download the necessary stopwords dataset by running the following in a Python shell:
+
+```bash
+
+import nltk
+nltk.download('stopwords')
+```
