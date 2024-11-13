@@ -47,7 +47,12 @@ The following dependencies are necessary for different functionalities in the pr
 You can install all the necessary dependencies in one go by running the following command:
 
 ```bash
+# Install dependencies
 pip install fastapi "uvicorn[standard]" torch transformers soundfile numpy ffmpeg-python python-dotenv opencage nltk scikit-learn sentence-transformers pydub
+
+# Exit the bash session
+exit
+
 
 After installing NLTK, remember to download the necessary stopwords dataset by running the following in a Python shell:
 
